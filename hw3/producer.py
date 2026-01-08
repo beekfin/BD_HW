@@ -9,8 +9,8 @@ from telethon import TelegramClient, events
 from telethon.tl.functions.channels import JoinChannelRequest
 from confluent_kafka import Producer
 
-TG_API_ID = 35258931
-TG_API_HASH = '46f77bb930c5d65da3fc5af65c0f9ea5'
+TG_API_ID = 0
+TG_API_HASH = ''
 KAFKA_BOOTSTRAP = 'localhost:9092'
 KAFKA_TOPIC = 'telegram_words_stream'
 
